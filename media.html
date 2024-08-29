@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="media.css"> 
+    <title>Media</title>
+  </head>
+  <header>
+    <nav class="head"> 
+      <ul> 
+        <li><a href="#about">About Me </a> </li>
+        <li><a href="#personal"> Personal Details </a> </li>
+        <li><a href="#education">Education & Career </a> </li>
+        <li><a href="#acheive"> Acheivements </a> </li>
+        <li><a href="#personality"> Personality</a> </li>
+        <li><a href="./index.html"> Back to Home </a></li>  
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <main>
+      <h2 id="about">About Me</h2><hr/>
+      <picture>
+        <!-- Source for high resolution display -->
+        <source srcset="assets/HIJAB (3).jpg" media="(min-width: 1200px)" />
+        <!-- Source for mobile devices -->
+        <source srcset="assets/HIJAB (3).png" media="(min-width: 768px)" />
+        <!-- Source for tablet and larger devices  -->
+        <source srcset="assets/HIJAB (3).jpg" media="(max-width: 767px)" />
+        <!-- Source for small devices -->
+        <source srcset="assets/HIJAB (3).jpg" media="(max-width: 600px)" />
+
+        <img src="assets/HIJAB (3).jpg" alt="My Favourite Quote" />
+      </picture>
+      <br />
+      <p>
+        My name is Rasheed Saudah Anuoluwapo Golden, and I am from a small town
+        in Ogun state, Nigeria. Growing up with strict parents and in a
+        close-knit community has shaped who I am today and taught me the
+        importance of family and friendship, I was brought up in an Islamic home
+        where being able to speak arabic was an obligation. I must say I was
+        blessed with a good and amazing mother. This poem describes my love for
+        my mother.
+      </p>
+      <audio controls autoplay preload="auto">
+        <source src="assets/04 Amazing mother.mp3" type="audio/mpeg" />
+        <source src="assets/04 Amazing mother.ogg " type="audio/ogg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3 id="personal">Personal Details</h3><hr/>
+      <p id="words">
+        I live with my parents and 5 younger siblings, and I am the first born
+        of the family. Our home is always bustling with activity, and I love
+        spending time in solitude. In my free time, I enjoy reading science
+        fiction novels, watching Movies, and playing music. My favourite music
+        is "True Love (A Capella)" by Maher Zain, try listening to it.
+      </p>
+      <audio controls autoplay preload="auto">
+        <source src="assets/10 True Love (Vocals Only).mp3" type="audio/mpeg"/>
+        <source src="assets/10 True Love (Vocals Only).ogg " type="audio/ogg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3 id="education">Education and Career</h3><hr/>
+      <p id="words">
+        I am currently a student at ALT school and also an undergraduate at the
+        institution of Federal Ploythecnic Ilaro, where I have developed a keen
+        interest in Software Engineering and Machine Learing. My favorite part
+        is working on projects and learning new ways to solve a particular
+        problem. In the future, I hope to pursue a career in Backend Engineering
+        and Frontend Engineering ,My dream is to become a Senior full- stack Developer.
+      </p>
+
+      <h3 id="acheive">Acheivements</h3><hr/>
+      <p id="words">
+        One of my proudest achievements was winning the first place throught my
+        Secondary School (SS1 - SSS3) as a science Student. However, I have also
+        faced challenges, such as balancing my academic responsibilities with
+        extracurricular activities. Through these experiences, I have learned
+        the importance of time management and perseverance.
+      </p>
+
+      <h3 id="personality">Personality</h3><hr/>
+      <p id="words">
+        I would describe myself as an introverted and curious person. I love
+        meeting new people and learning about different cultures and
+        perspectives. Honesty and integrity are core values that guide my
+        actions, and I believe in treating others with respect and
+        kindness.Below is my favorite quote.
+      </p>
+      <picture>
+        <!-- Source for tablets and larger devices  -->
+        <source srcset="assets/Quotes.jpg" media="(min-width: 768px)" />
+        <!-- Source for tablets and larger devices -->
+        <source srcset="assets/Quotes.jpg" media="(min-width: 768px)" />
+        <!-- Source for mobile devices -->
+        <source srcset="assets/Quotes.jpg" media="(max-width: 768px)" />
+        <!-- source for small devices  -->
+        <source srcset="assets/Quotes.jpg" media="(max-width: 568px)" />
+
+        <img src="assets/Quotes.jpg" alt="My Favourite Quote" />
+      </picture>
+
+      <p id="words">
+        Looking ahead, I plan to take more online courses and attend conferences
+        to be able to connect with Senior developers and entrepreneurs who are
+        willing to make a positive impact in my Vision. My long-term goal is to
+        become the CEO of my own tech company like Microsoft and Meta.
+        Ultimately, I want to make a positive impact on the world and inspire
+        others to invest into technology. I believe that with determination and
+        a positive attitude, we can achieve anything we set our minds to. And I
+        also believe that there are things in life that money can't buy.
+      </p>
+
+      <video controls autoplay preload="auto">
+
+        <source src="./assets/HAPPINESS.mp4" type="video/mp4" />
+        <source src="./assets/HAPPINESS.webm " type="video/webm" />
+        Your browser does not support this video content
+      </video>
+    
+    </main>
+  </body>
+</html>
