@@ -54,7 +54,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    max-width: 12000px;
+    max-width: auto; 
     margin: 0 auto;
     gap: 10px;
 }
